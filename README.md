@@ -1,6 +1,4 @@
-# LED Matrix generator 
-The code for LED Matrix can be generated using the page. 
-
+# LED Matrix generator for Artuino LED Matrix
 ![Generator](./images/generator.png "LED Matrix Generator Web Page")
 
 ## Visit
