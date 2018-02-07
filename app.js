@@ -77,6 +77,7 @@ $("#pixel_canvas").on("mouseup", "td", function() {
 
 
 function makeCode() {
+    console.log("Making code!");
     // byte n[] = {B00000000,B00000000,B01111100,B01100110,B01100110,B01100110,B01100110,B00000000};
     const rows = $("#input_height").val();
     const columns = $("#input_width").val();
