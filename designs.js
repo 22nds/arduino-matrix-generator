@@ -105,6 +105,7 @@ function makeCode() {
 
 
 // Copy code button
+// based on https://codepen.io/chriscoyier/pen/OXAwvq
 var copyCodeBtn = document.querySelector('.copyCode');
 copyCodeBtn.addEventListener('click', function(event) {
     // Select the email link anchor text  
