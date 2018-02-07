@@ -23,6 +23,7 @@ function makeGrid() {
             $(this).append("<td></td>");
         }
     });
+    makeCode();
 }
 
 $("#input_height").change(function() {
@@ -97,12 +98,6 @@ function makeCode() {
     code = code + "};";
     $("#code").html(code);
 }
-
-// $("#create").on("click", function(e) {
-//     e.preventDefault();
-//     makeGrid();
-// });
-
 
 // Copy code button
 // based on https://codepen.io/chriscoyier/pen/OXAwvq
