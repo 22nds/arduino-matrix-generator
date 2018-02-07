@@ -9,8 +9,8 @@
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 
 <body>
-    <h1>Matrix Generator</h1>
-    <h2>Choose Grid Size and Name</h2>
+    <h1>LED Matrix Generator</h1>
+    <h2>Choose Grid Size and Name of the Variable</h2>
     <form id="sizePicker">
         <label for="input_height"> Grid Height:</label>
         <input type="number" id="input_height" name="height" min="1" value="8">
@@ -20,15 +20,16 @@
         <br>
         <label for="variable_name">Name</label>
         <input type="text" id="variable_name" name="name">
-        <button name="submit" id="create" type="submit">Create</Button>
-        <!-- <h2>Pick A Color</h2> <input type="color" id="colorPicker" value="#FF0018"> -->
-        <h2>Design Canvas</h2>
-        <table id="pixel_canvas"></table>
-        <div>
-            <h3>Output</h3>
-            <pre id="code"></pre>
-        </div>
-        <script src="designs.js"></script>
+        <!-- <button name="submit" id="create" type="submit">Create</Button> -->
+    </form>
+    <h2>Design Canvas</h2>
+    <table id="pixel_canvas"></table>
+    <div>
+        <h3>Output</h3>
+        <p><button class="copyCode">Copy</button></p>
+        <pre id="code"></pre>
+    </div>
+    <script src="designs.js"></script>
 
 </body>
 
